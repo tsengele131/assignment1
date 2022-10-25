@@ -153,14 +153,13 @@ h1{
 }
 
 .home2{
-    height: 932px;
     width: 1280px;
-    margin: 0 auto;
+    margin: 96px auto;
+    margin-bottom: 96px;
 }
 
 .home2-title{
     width: 735px;
-    margin-top: 96px;
     color: #1D3444;   
 }
 
@@ -224,13 +223,14 @@ h2{
 }
 
 .home3-cover{
-    height: 665px;
+    /* height: 665px; */
     background-color: #DCEAF5;
 }
 
 .home3{
-    height: 665px;
+    /* height: 665px; */
     width: 1280px;
+    padding: 96px 0px 96px 0px;
     margin: 0 auto;
 }
 
@@ -244,7 +244,7 @@ h2{
     color: #0D1317;
     font-size: 36px;
     line-height: 44px;
-    margin-top: 96px;
+    /* margin-top: 96px; */
 }
 
 .home3-title-descr{
@@ -253,7 +253,7 @@ h2{
     font-size: 18px;
     line-height: 30px;
     font-weight: 500;
-    margin-top: 96px;
+    /* margin-top: 96px; */
 }
 
 .home3-side{
@@ -573,7 +573,7 @@ h2{
 .home7-side2{
     margin-top: 128px;
     margin-left: 20px;
-    width: 640px;
+    /* width: 640px; */
 }
 
 .home7-side2-img{
@@ -604,7 +604,7 @@ h2{
     height: 51px;
     border-radius: 26.5px;
     background-color: #FFFFFF;
-    border: none;
+    border: 1px solid #FFFFFF;
     background-image: url(./images/play-icon.svg);
     background-size:auto;
     background-repeat: no-repeat;
@@ -617,12 +617,14 @@ h2{
 }
 
 .blog-cover{
-    height: 819px;
+    /* height: 819px; */
     background-color: #DCEAF5;
+    padding-bottom: 96px;
+    padding-top: 96px;
 }
 
 .blog{
-    height: 819px;
+    /* height: 819px; */
     background-color: #DCEAF5;
     width: 1280px;
     margin: 0 auto;
@@ -633,7 +635,7 @@ h2{
 .blog-title{
     color: #0D1317;
     text-transform: capitalize;
-    padding-top: 96px;
+    /* padding-top: 96px; */
 }
 
 .blog-side{
@@ -831,7 +833,7 @@ input[type=text], select{
 .cover-white:first-of-type{
     height: 650px;
     margin-top: 92px;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
 }
 
 .serv-header{
@@ -1053,13 +1055,13 @@ input[type=text], select{
 }
 
 .career-cover{
-    height: 522px;
+    /* height: 522px; */
     margin-bottom: 128px;
-    margin-top: 128px;
 }
 
 .career-open{
-    width: 1280px;
+    max-width: 1280px;
+    min-width: 400px;
     margin: 0 auto;
 
     display: flex;
